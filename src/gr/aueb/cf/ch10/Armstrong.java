@@ -19,10 +19,9 @@ public class Armstrong {
             sum += (int) Math.pow(temp % 10, numberOfDigits);
             temp /= 10;
         }
-        
+
 
         System.out.printf("The number: %d is%s an Armstrong number", number, sum == number ? "" : " not");
-
 
     }
 }
